@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+       <meta charset="UTF-8">
+       <meta http-equiv="X-UA-Compatible" content="IE=edge">
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <title>Table</title>
+</head>
+
+<body>
+       <table style="color:blue" border="10" width="100%">
+              <caption>Dersler</caption> <!--Tablo adı-->
+              <thead> <!--Kolonların başlıkları-->
+                     <tr><!--tablo satırı-->
+                            <th> id </th>
+                            <th>Class name</th> <!--- hücre içeriği -->
+                            <th>Date</th>
+                            <th>Delete</th>
+                            <th>upDate</th>
+                     </tr>
+              </thead>
+              <tbody> <!--içerik-->
+                     <tr>
+                            <td>1</td>
+                            <td>Jquery</td>
+                            <td>2020</td>
+                            <td rowspan="2">Delete</td> <!--Satırları birleştir sütun yap demek-->
+                            <td>UpDate</td>
+                     </tr>
+                     <tr>
+                            <td>2</td>
+                            <td>Java SE</td>
+                            <td>2013</td>
+                            <td>UpDate</td>
+                     </tr>
+                     <tr>
+                            <td>3</td>
+                            <td>Java EE</td>
+                            <td colspan="2">2014</td><!--sütunları birleştir satır yap-->
+                            <td>UpDate</td>
+                     </tr>
+                     <tr>
+                            <td>4</td>
+                            <td>Java EE</td>
+                            <td>Delete</td>
+                            <td>Update</td>
+                     </tr>
+
+              </tbody>
+              <tfoot>
+                     <tr>
+                            <td colspan="5" > <center>ortalama</center></td>
+                     </tr>
+              </tfoot>
+
+       </table>
+</body>
+
+</html>
